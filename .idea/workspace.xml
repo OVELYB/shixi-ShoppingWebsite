@@ -6,7 +6,78 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434769d7-cfe1-497f-9b88-0dbea5b5533a" name="Default Changelist" comment="" />
+    <list default="true" id="434769d7-cfe1-497f-9b88-0dbea5b5533a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/dao/HandleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/pojo/Handle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/AddHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/AddSaleHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/DeleteHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/DoAddHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/DoAddSaleHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/DoSaleRegisterWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/DoUpdateHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/HandListWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/SaleHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/SaleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/SaleRegisterWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diyshopping/web/UpdateHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/back/addhandle.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/back/handlelist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/back/updatehandle.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sale/addsalehandle.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sale/salehandle.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sale/saleinfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/Table/T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/Table/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/dao/Userdao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/dao/Userdao$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/dao/Userdao$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/dao/Userdao$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/dao/Userdao$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/dao/Userdao$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/dao/Userdao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/dao/Userdao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/util/test100$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/util/test100$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/util/test100$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/util/test100$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/Adminlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/Adminlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/Doadd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/Doadd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/Salelist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/Salelist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/Update.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/dologin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/diyshopping/web/dologin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/neuedu/web/DoUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/WEB-INF/classes/com/neuedu/web/DoUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/back/adminlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/back/adminlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/back/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/back/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shopping_war_exploded/back/salelist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/Table/T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/Table/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/dao/Userdao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/dao/Userdao$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/dao/Userdao$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/dao/Userdao$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/dao/Userdao$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/dao/Userdao$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/dao/Userdao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/dao/Userdao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/util/test100$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/util/test100$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/util/test100$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/util/test100$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/Adminlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/Adminlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/Doadd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/Doadd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/Salelist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/Salelist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/Update.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/dologin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/diyshopping/web/dologin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopping/com/neuedu/web/DoUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopping/com/neuedu/web/DoUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/Table/T1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/pojo/T1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/Table/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/dao/Userdao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/dao/Userdao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/util/test100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/util/test100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/web/DoUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/web/DoUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/web/Doadd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/web/Doadd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/web/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/web/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/web/Salelist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/web/Salelist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/web/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/web/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/diyshopping/web/dologin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/diyshopping/web/dologin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sale/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/back/adminlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/back/adminlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/back/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/back/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/back/salelist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sale/salelist.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +118,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Update.java">
+        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Salelist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1/schema/shoptest/table/handle">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1/schema/shoptest/table/user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/HandListWeb.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,69 +160,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Active.java">
+        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/AddHandle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoAddHandle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DeleteHandle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="575">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <caret line="25" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoUpdate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Delete.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/shopping.mmd">
-          <provider selected="true" editor-type-id="com.igormaznitsa.ideamindmap.editor.MindMapDocumentEditor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/back/login.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/dao/HandleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="520">
+              <caret line="112" column="5" lean-forward="true" selection-start-line="109" selection-start-column="3" selection-end-line="112" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getAll#0;class#HandleDao#0" />
+                <element signature="method#getHandlesByParentId#0;class#HandleDao#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Doadd.java">
+        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/UpdateHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="580">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,22 +222,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Adminlist.java">
+        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoUpdateHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/diyshopping/dao/Userdao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2967">
-              <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
+            <state relative-caret-position="512">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,54 +256,67 @@
       <find>修改</find>
       <find>icon-trash</find>
       <find>删除</find>
+      <find>getOneUsernameAndPassword</find>
+      <find>all</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/test/Puppy.java" />
-        <option value="$PROJECT_DIR$/src/com/test/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/test/user.java" />
-        <option value="$PROJECT_DIR$/src/com/Polo/User.java" />
-        <option value="$PROJECT_DIR$/src/com/test1/Rowmap.java" />
-        <option value="$PROJECT_DIR$/src/com/Table/T1.java" />
-        <option value="$PROJECT_DIR$/src/com/test1/RowMap.java" />
-        <option value="$PROJECT_DIR$/src/com/test1/JDBCUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/test1/test100.java" />
-        <option value="$PROJECT_DIR$/src/com/test1/Userupdate.java" />
-        <option value="$PROJECT_DIR$/src/com/web/Testweb.java" />
-        <option value="$PROJECT_DIR$/src/com/diyshopping/web/Testweb.java" />
-        <option value="$PROJECT_DIR$/web/a.jsp" />
-        <option value="F:/接收的文件/JDBCUtil.java" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/web/login.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/test.jsp" />
-        <option value="$PROJECT_DIR$/web/back/login.jsp" />
         <option value="$PROJECT_DIR$/web/back/salelist.jsp" />
         <option value="$PROJECT_DIR$/web/back/message.jsp" />
-        <option value="$PROJECT_DIR$/src/com/diyshopping/web/dologin.java" />
-        <option value="$PROJECT_DIR$/src/com/diyshopping/web/Salelist.java" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/shopping.mmd" />
-        <option value="$PROJECT_DIR$/web/back/adminlist.jsp" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/util/JDBCUtil.java" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/web/List.java" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/Table/User.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/web/Addlist.java" />
         <option value="$PROJECT_DIR$/web/back/js/doadd.jsp" />
         <option value="$PROJECT_DIR$/web/back/addlist.jsp" />
         <option value="$PROJECT_DIR$/web/back/doadd.jsp" />
         <option value="$PROJECT_DIR$/web/back/fail.jsp" />
-        <option value="$PROJECT_DIR$/src/com/diyshopping/web/Doadd.java" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/web/Update.java" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/web/DoUpdate.java" />
         <option value="$PROJECT_DIR$/web/back/update.jsp" />
-        <option value="$PROJECT_DIR$/src/com/diyshopping/web/Delete.java" />
         <option value="$PROJECT_DIR$/web/back/list.jsp" />
-        <option value="$PROJECT_DIR$/src/com/diyshopping/dao/Userdao.java" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/web/Active.java" />
         <option value="$PROJECT_DIR$/src/com/diyshopping/web/Adminlist.java" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/Doadd.java" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/SaleRegisterWeb.java" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/DoSaleRegisterWeb.java" />
+        <option value="$PROJECT_DIR$/web/back/login.jsp" />
+        <option value="$PROJECT_DIR$/web/sale/register.jsp" />
+        <option value="$PROJECT_DIR$/web/back/adminlist.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/dao/Userdao.java" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/pojo/Handle.java" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/HandListWeb.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/AddHandle.java" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/DoAddHandle.java" />
+        <option value="$PROJECT_DIR$/web/back/addhandle.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/Delete.java" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/DeleteHandle.java" />
+        <option value="$PROJECT_DIR$/web/back/handlelist.jsp" />
+        <option value="$PROJECT_DIR$/web/back/js/updatehandle.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/DoUpdateHandle.java" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/dao/HandleDao.java" />
+        <option value="$PROJECT_DIR$/web/back/updatehandle.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/Salelist.java" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/SaleInfo.java" />
+        <option value="$PROJECT_DIR$/web/sale/saleinfo.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/dologin.java" />
+        <option value="$PROJECT_DIR$/web/sale/salelist.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/SaleHandle.java" />
+        <option value="$PROJECT_DIR$/web/sale/salehandle.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/AddSaleHandle.java" />
+        <option value="$PROJECT_DIR$/web/sale/addsalehandle.jsp" />
+        <option value="$PROJECT_DIR$/src/com/diyshopping/web/UpdateHandle.java" />
       </list>
     </option>
   </component>
@@ -241,9 +334,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1408" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -251,44 +345,106 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="NBKnowledgePane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="diyshopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="diyshopping" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="diyshopping" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="diyshopping" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="diyshopping" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="sale" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="NBKnowledgePane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688130078066" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688373181129" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/网站跳转流程.html" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test0627" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\shopping\web\images" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.diyshopping" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\shopping\web\back" />
       <recent name="E:\shopping\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\shopping\web\sale" />
+      <recent name="E:\shopping\web\images" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -579,11 +735,22 @@
       <workItem from="1688093025230" duration="15574000" />
       <workItem from="1688128925823" duration="1148000" />
       <workItem from="1688258857622" duration="2401000" />
+      <workItem from="1688281002775" duration="624000" />
+      <workItem from="1688287222000" duration="36000" />
+      <workItem from="1688287318213" duration="510000" />
+      <workItem from="1688289962039" duration="2000" />
+      <workItem from="1688290201615" duration="19000" />
+      <workItem from="1688295114699" duration="895000" />
+      <workItem from="1688301087296" duration="23000" />
+      <workItem from="1688301121848" duration="4828000" />
+      <workItem from="1688307996253" duration="13000" />
+      <workItem from="1688347348998" duration="20546000" />
+      <workItem from="1688388168907" duration="2663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80374000" />
+    <option name="totallyTimeSpent" value="110533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -595,9 +762,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1913" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22855228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18512975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -606,8 +774,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22693998" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30309278" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5912306" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,7 +785,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32650074" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32258064" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32956153" />
@@ -626,7 +794,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.0844504" />
+      <window_info anchor="right" id="Database" order="4" weight="0.28753352" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -636,6 +804,46 @@
       <window_info anchor="right" id="Word Book" order="11" side_tool="true" />
       <window_info anchor="right" id="Translation Assistant" order="12" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20375335" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25953078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5912306" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32258064" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Sequence Diagram" order="16" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.13941018" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Codota" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="Word Book" order="11" side_tool="true" />
+      <window_info anchor="right" id="Translation Assistant" order="12" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -645,39 +853,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/模板/模板/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/shopping.mmd">
+      <provider selected="true" editor-type-id="com.igormaznitsa.ideamindmap.editor.MindMapDocumentEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/salelist.jsp">
+    <entry file="file://$PROJECT_DIR$/web/a.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/sale/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="-805">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/模板/模板/list.html">
+    <entry file="file://$PROJECT_DIR$/web/back/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="39" lean-forward="true" selection-end-line="353" selection-end-column="7" />
+        <state relative-caret-position="379">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/images/tmbg-white.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="das://07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1/schema/shoptest/table/t4">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/images/passcode.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="das://07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1/schema/shoptest/table/t1">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/images/11.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="das://07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1/schema/shoptest/table/t2">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/pintuer.css">
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Addlist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="131">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoSaleRegisterWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Adminlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,117 +946,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/src/com/neuedu/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/web/back/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/模板/模板/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="49" column="38" lean-forward="true" selection-end-line="159" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Salelist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1541">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/back/adminlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="31" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/util/test100.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-481">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/util/Userupdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="114" column="77" lean-forward="true" selection-start-line="114" selection-start-column="77" selection-end-line="114" selection-end-column="77" />
-          <folding>
-            <element signature="method#getEnd#0;class#Userupdate#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/Table/T1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/Table/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Testweb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/js/doadd.jsp" />
-    <entry file="file://$USER_HOME$/Desktop/test0627/web/back/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="65" lean-forward="true" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1/schema/shoptest/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/dologin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/src/com/neuedu/web/DoAddWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="759">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/back/addlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1013">
-          <caret line="48" column="35" lean-forward="true" selection-end-line="104" />
+        <state relative-caret-position="2369">
+          <caret line="103" column="7" selection-start-line="7" selection-end-line="103" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -812,191 +974,308 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/src/com/neuedu/web/ListWeb.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/fail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/src/com/neuedu/web/UpdateWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/web/back/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/src/com/neuedu/web/DoUpdateWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="49" lean-forward="true" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/src/com/neuedu/web/DelWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/web/back/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="90" column="249" selection-start-line="90" selection-start-column="247" selection-end-line="90" selection-end-column="249" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test0627/src/com/neuedu/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="120" column="25" lean-forward="true" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/css/pintuer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3358">
-          <caret line="146" column="191" selection-start-line="146" selection-start-column="191" selection-end-line="146" selection-end-column="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/util/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="89" column="300" selection-start-line="89" selection-start-column="300" selection-end-line="89" selection-end-column="300" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Addlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/网站跳转流程.drawio">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/网站跳转流程.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Active.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="uml://JAVA/com.neuedu.web.DoUpdate">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.neuedu.web.DoUpdate</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.servlet.annotation.WebServlet</node>
+            <node x="" y="">javax.servlet.ServletConfig</node>
+            <node x="" y="">javax.servlet.http.HttpServlet</node>
+            <node x="" y="">javax.servlet.GenericServlet</node>
+            <node x="" y="">com.neuedu.web.DoUpdate</node>
+            <node x="" y="">javax.servlet.Servlet</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="698.0" y="240.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Doadd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="510">
+          <caret line="41" column="73" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Adminlist.java">
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="402">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/util/RowMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/js/updatehandle.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="24" column="71" selection-start-line="19" selection-start-column="8" selection-end-line="24" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.38.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/diyshopping/dao/Userdao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2967">
-          <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="129" column="108" selection-start-line="128" selection-start-column="17" selection-end-line="129" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/shopping.mmd">
-      <provider selected="true" editor-type-id="com.igormaznitsa.ideamindmap.editor.MindMapDocumentEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/back/login.jsp">
+    <entry file="file://$PROJECT_DIR$/web/back/handlelist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="271">
+          <caret line="82" column="105" selection-start-line="82" selection-start-column="105" selection-end-line="82" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/pojo/Handle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/addhandle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" column="29" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/updatehandle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/SaleRegisterWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sale/salelist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/SaleHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sale/salehandle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="89" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/AddSaleHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sale/addsalehandle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoAddSaleHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/SaleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sale/saleinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/dologin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/Salelist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1/schema/shoptest/table/handle">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://07c67d12-ff9f-4c78-95a0-dbc5fa7afcd1/schema/shoptest/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/HandListWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/AddHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoAddHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DeleteHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/UpdateHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/web/DoUpdateHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/diyshopping/dao/HandleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="112" column="5" lean-forward="true" selection-start-line="109" selection-start-column="3" selection-end-line="112" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAll#0;class#HandleDao#0" />
+            <element signature="method#getHandlesByParentId#0;class#HandleDao#0" />
+          </folding>
         </state>
       </provider>
     </entry>

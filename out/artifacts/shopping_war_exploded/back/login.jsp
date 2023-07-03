@@ -40,7 +40,7 @@
                             <div class="field field-icon-right">
                               超级管理员  <input type="radio" name="role" value="0"  />
                                 卖家  <input type="radio" name="role" value="1"  />
-
+                                <a href="/sale/register">注册</a>
                             </div>
                         </div>
 

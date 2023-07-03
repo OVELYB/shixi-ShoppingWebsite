@@ -1,8 +1,8 @@
 package com.diyshopping.util;
 
 import java.sql.*;
-import  com.diyshopping.Table.User;
-import  com.diyshopping.Table.T1;
+import  com.diyshopping.pojo.User;
+import  com.diyshopping.pojo.T1;
 public class test100 {
     /*
     static{

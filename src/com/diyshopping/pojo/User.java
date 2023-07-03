@@ -1,4 +1,4 @@
-package com.diyshopping.Table;
+package com.diyshopping.pojo;
 import java.util.Date;
 public class User {
             private int id;

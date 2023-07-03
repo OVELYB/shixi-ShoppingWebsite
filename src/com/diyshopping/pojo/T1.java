@@ -1,4 +1,4 @@
-package com.diyshopping.Table;
+package com.diyshopping.pojo;
 
 public class T1 {
     private  int age;

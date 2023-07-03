@@ -1,6 +1,6 @@
 package com.diyshopping.web;
 
-import com.diyshopping.Table.User;
+import com.diyshopping.pojo.User;
 import com.diyshopping.dao.Userdao;
 
 import javax.servlet.ServletException;

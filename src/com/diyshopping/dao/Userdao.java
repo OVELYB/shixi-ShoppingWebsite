@@ -1,6 +1,6 @@
 package com.diyshopping.dao;
 
-import com.diyshopping.Table.User;
+import com.diyshopping.pojo.User;
 import com.diyshopping.util.JDBCUtil;
 import com.diyshopping.util.RowMap;
 
@@ -23,12 +23,18 @@ public class Userdao {
                 int active = rs.getInt("active");
                 String phone = rs.getString("phone");
                 String email = rs.getString("email");
+                Date date = rs.getDate("create_time");
                 int role = rs.getInt("role");
+                String img=rs.getString("img");
                 user.setId(id);
                 user.setUsername(username);
                 user.setPassword(password);
                 user.setRole(role);
                 user.setPhone(phone);
+                user.setActive(active);
+                user.setCreateTime(date);
+                user.setImg(img);
+                user.setEmail(email);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
